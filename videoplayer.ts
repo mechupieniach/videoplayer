@@ -1,56 +1,46 @@
-const container = document.getElementById('container') as HTMLDivElement
-container.className = 'container'
-const videoElement = document.createElement('video') as HTMLVideoElement 
-videoElement.src = './coolvideo.mp4'
+import * as M1 from './src/module1'
+import * as M2 from './src/module2'
+import * as M3 from './src/module3'
+
+const container = M1.createContainer()
+const videoElement = M1.createVideoElement()
+const pauseButton = M1.createButton('pause', 'button')
+const stopButton = M1.createButton('stop', 'button')
+const playButton = M1.createButton('play', 'button')
+const recordList = M1.createRecordList()
+const volumeInput = M2.createVolumeInput()
+const progressInput = M2.createProgressInput()
+const labelForVolume = M2.createLabel('Volume', volumeInput)
+const labelForProgress = M2.createLabel('Progress', progressInput)
+const formElement = M3.createForm()
+const currentTime = M3.CreateCurrentTime()
+const description = M3.createDescription()
+const submitButton = M1.createButton('submit', 'submit')
+const labelForTime = M2.createLabel('Current Time', currentTime)
+const labelForDesc = M2.createLabel('Description', description)
+const controls = M3.createControls()
 let volumeLevel: number|string = 0 
-const volumeInput = document.createElement('input') as HTMLInputElement
-volumeInput.type = 'range'
-volumeInput.min = '0'
-volumeInput.max = '100'
-volumeInput.value = '0'
-const labelVolume = document.createElement('label')
-const progressInput = document.createElement('input') as HTMLInputElement
-progressInput.type = 'range'
-progressInput.min = '0'
-progressInput.max = '100'
-progressInput.value = '0'
-container?.appendChild(videoElement)
 
-const pauseButton = document.createElement('button') as HTMLButtonElement
-pauseButton.innerHTML = 'pause'
-const stopButton = document.createElement('button') as HTMLButtonElement
-stopButton.innerHTML = 'stop'
-const playButton = document.createElement('button') as HTMLButtonElement
-playButton.innerHTML = 'play'
+const controlsArray = [playButton, pauseButton, stopButton, labelForVolume, labelForProgress]
+controlsArray.forEach((Element: HTMLButtonElement | HTMLLabelElement) => {
+    controls.appendChild(Element)
+} )
 
-const controls = document.createElement('div')
-controls.appendChild(playButton)
-controls.appendChild(pauseButton)
-controls.appendChild(stopButton)
-controls.appendChild(volumeInput)
-controls.appendChild(progressInput)
-container?.appendChild(controls)
+const formArray = [labelForTime, labelForDesc, submitButton]
+formArray.forEach((Element: HTMLLabelElement | HTMLButtonElement) => {
+    formElement.appendChild(Element)
+})
 
-const formElement = document.createElement('form') as HTMLFormElement
-const currentTime = document.createElement('input') as HTMLInputElement
-currentTime.readOnly
-currentTime.value = "00:00:00"
-const description = document.createElement('input') as HTMLInputElement
-description.type = 'text'
-description.placeholder = 'describe'
-const submitButton = document.createElement('button') as HTMLButtonElement
-submitButton.type = 'submit'
-submitButton.innerHTML = 'submit'
-formElement.appendChild(currentTime)
-formElement.appendChild(description)
-formElement.appendChild(submitButton)
-container?.appendChild(formElement)
+const Video = document.createElement('div')
+Video.appendChild(videoElement)
+Video.appendChild(controls)
 
-const recordList = document.createElement('ul') as HTMLUListElement
-recordList. innerHTML = 'Live description:'
+const livechat = document.createElement('div')
+livechat.appendChild(formElement)
+livechat.appendChild(recordList)
 
-
-container?.appendChild(recordList)
+container?.appendChild(Video)
+container?.appendChild(livechat)
 
 
 const onTimeChange = (event: Event) => {
@@ -65,11 +55,9 @@ const play = async () =>  {
 }
     
 const pause = () => {
-    console.log('pauza')
     videoElement.pause()
 }
 const stopVideo = () => {
-    console.log('stop')
     videoElement.pause()
     videoElement.currentTime = 0
     currentTime.value = '00:00:00'
@@ -95,25 +83,23 @@ const getFormattedTime = (time: number) => {
         + `:${minutes % 60 < 10 ? "0" + minutes % 60 : minutes % 60}`
         + `:${seconds % 60 < 10 ? "0" + seconds % 60 : seconds % 60}`
 }
-        
-let list = []
-        
+
 const addList = (event: SubmitEvent) => {
     event.preventDefault()
 
     let record = currentTime.value + " : " + description.value
-    description.value = ''
+    
     let li = document.createElement("li");
     li.innerHTML = record
+    description.value = ''
 
     recordList.children.length === 0
         ?
         recordList.appendChild(li)
         :
         recordList.insertBefore(li, recordList.children[0])
+    console.log(description.value)
 }
-
-        
 
 formElement.addEventListener('submit', addList)
 playButton.addEventListener('click', play)
