@@ -28,11 +28,6 @@ http.createServer( async (request, response) => {
             response.write(videoplayerHtml)
             response.end()
             break
-        case '/videoplayer.css':
-            response.writeHead(200, {'Content-Type': 'text/css'})
-            response.write(videoplayerCss)
-            response.end()
-            break
         case '/dist/videoplayer.bundle.js':
             response.writeHead(200, {'Content-Type': 'text/javascript'})
             response.write(videoplayerJs)
