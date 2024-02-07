@@ -1,0 +1,21 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.label > input {
+    background-color:khaki;
+    border: 1px solid palevioletred;
+    height: 30px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+ul {
+    font-size: 30px;
+    color:blueviolet
+}
+li {
+    font-size: 20px;
+    color:khaki
+}

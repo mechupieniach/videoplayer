@@ -1,0 +1,16 @@
+.controls {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.controls > label > input::-webkit-slider-runnable-track {
+    background: khaki;
+}
+
+.controls > label > input::-webkit-slider-thumb {
+    appearance: none;
+    background-color: aquamarine;
+    height: 2rem;
+    width: 1rem; 
+}
