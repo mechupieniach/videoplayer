@@ -40,6 +40,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/Label/Label.css":
+/*!*******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/Label/Label.css ***!
+  \*******************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.label {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 5px;\r\n}\r\n.label > input {\r\n    background-color:khaki;\r\n    border: 1px solid palevioletred;\r\n    height: 30px;\r\n    width: fit-content;\r\n    font-size: 20px;\r\n}\r\n\r\nul {\r\n    font-size: 30px;\r\n    color:blueviolet\r\n}\r\nli {\r\n    font-size: 20px;\r\n    color:khaki\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://videoplayer/./src/Label/Label.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/RecordList/RecordList.css":
 /*!*****************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/RecordList/RecordList.css ***!
@@ -117,6 +127,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_Controls_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./Controls.css */ \"./node_modules/css-loader/dist/cjs.js!./src/Controls/Controls.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_Controls_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_Controls_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_Controls_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_Controls_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://videoplayer/./src/Controls/Controls.css?");
+
+/***/ }),
+
+/***/ "./src/Label/Label.css":
+/*!*****************************!*\
+  !*** ./src/Label/Label.css ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_Label_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./Label.css */ \"./node_modules/css-loader/dist/cjs.js!./src/Label/Label.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_Label_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_Label_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_Label_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_Label_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://videoplayer/./src/Label/Label.css?");
 
 /***/ }),
 
@@ -210,6 +230,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/AddList.ts":
+/*!************************!*\
+  !*** ./src/AddList.ts ***!
+  \************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.addList = void 0;\nconst addList = (event, recordList, currentTimeInput, description) => {\n    event.preventDefault();\n    let record = currentTimeInput.value + \" : \" + description.value;\n    let li = document.createElement(\"li\");\n    li.innerHTML = record;\n    description.value = '';\n    recordList.children.length === 0\n        ?\n            recordList.appendChild(li)\n        :\n            recordList.insertBefore(li, recordList.children[0]);\n};\nexports.addList = addList;\n\n\n//# sourceURL=webpack://videoplayer/./src/AddList.ts?");
+
+/***/ }),
+
 /***/ "./src/Button/Button.ts":
 /*!******************************!*\
   !*** ./src/Button/Button.ts ***!
@@ -217,6 +247,46 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Button = void 0;\n__webpack_require__(/*! ./Button.css */ \"./src/Button/Button.css\");\nconst Button = (label, type, onClick) => {\n    const Button = document.createElement('button');\n    Button.innerHTML = label;\n    Button.type = type;\n    Button.className = 'button';\n    Button.onclick = () => onClick();\n    return Button;\n};\nexports.Button = Button;\n\n\n//# sourceURL=webpack://videoplayer/./src/Button/Button.ts?");
+
+/***/ }),
+
+/***/ "./src/ContainerLivechat/ContainerLivechat.ts":
+/*!****************************************************!*\
+  !*** ./src/ContainerLivechat/ContainerLivechat.ts ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.ContainerLivechat = void 0;\nconst Form_1 = __webpack_require__(/*! ./Form */ \"./src/ContainerLivechat/Form.ts\");\nconst RecordList_1 = __webpack_require__(/*! ../RecordList/RecordList */ \"./src/RecordList/RecordList.ts\");\nconst Description_1 = __webpack_require__(/*! ./Description */ \"./src/ContainerLivechat/Description.ts\");\nconst AddList_1 = __webpack_require__(/*! ../AddList */ \"./src/AddList.ts\");\nconst Label_1 = __webpack_require__(/*! ../Label/Label */ \"./src/Label/Label.ts\");\nconst Button_1 = __webpack_require__(/*! ../Button/Button */ \"./src/Button/Button.ts\");\nconst ContainerLivechat = (currentTimeInput) => {\n    const description = (0, Description_1.Description)();\n    const recordList = (0, RecordList_1.RecordList)();\n    const submitEvent = new Event('submit');\n    const formElement = (0, Form_1.Form)(() => (0, AddList_1.addList)(submitEvent, recordList, currentTimeInput, description));\n    const submitButton = (0, Button_1.Button)('submit', 'submit', () => { });\n    const labelForTime = (0, Label_1.Label)('Current Time', currentTimeInput);\n    const labelForDesc = (0, Label_1.Label)('Description', description);\n    formElement.appendChild(labelForTime);\n    formElement.appendChild(labelForDesc);\n    formElement.appendChild(submitButton);\n    const ContainerLivechat = document.createElement('div');\n    ContainerLivechat.appendChild(formElement);\n    ContainerLivechat.appendChild(recordList);\n    return ContainerLivechat;\n};\nexports.ContainerLivechat = ContainerLivechat;\n\n\n//# sourceURL=webpack://videoplayer/./src/ContainerLivechat/ContainerLivechat.ts?");
+
+/***/ }),
+
+/***/ "./src/ContainerLivechat/CurrentTimeInput.ts":
+/*!***************************************************!*\
+  !*** ./src/ContainerLivechat/CurrentTimeInput.ts ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.CurrentTimeInput = void 0;\nconst CurrentTimeInput = () => {\n    const currentTimeInput = document.createElement('input');\n    currentTimeInput.readOnly;\n    currentTimeInput.value = \"00:00:00\";\n    return currentTimeInput;\n};\nexports.CurrentTimeInput = CurrentTimeInput;\n\n\n//# sourceURL=webpack://videoplayer/./src/ContainerLivechat/CurrentTimeInput.ts?");
+
+/***/ }),
+
+/***/ "./src/ContainerLivechat/Description.ts":
+/*!**********************************************!*\
+  !*** ./src/ContainerLivechat/Description.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Description = void 0;\nconst Description = () => {\n    const description = document.createElement('input');\n    description.type = 'text';\n    description.placeholder = 'describe';\n    return description;\n};\nexports.Description = Description;\n\n\n//# sourceURL=webpack://videoplayer/./src/ContainerLivechat/Description.ts?");
+
+/***/ }),
+
+/***/ "./src/ContainerLivechat/Form.ts":
+/*!***************************************!*\
+  !*** ./src/ContainerLivechat/Form.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Form = void 0;\nconst Form = (onSubmit) => {\n    const formElement = document.createElement('form');\n    // const currentTimeInput = CurrentTimeInput()\n    // const description = Description()\n    // formElement.appendChild(Label('Current Time', currentTimeInput))\n    // formElement.appendChild(Label('Description', description))\n    // formElement.appendChild(Button('submit', 'submit', () => {}))\n    formElement.onsubmit = () => onSubmit();\n    return formElement;\n};\nexports.Form = Form;\n\n\n//# sourceURL=webpack://videoplayer/./src/ContainerLivechat/Form.ts?");
 
 /***/ }),
 
@@ -270,43 +340,13 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
 
 /***/ }),
 
-/***/ "./src/CurrentTimeInput.ts":
-/*!*********************************!*\
-  !*** ./src/CurrentTimeInput.ts ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.CurrentTimeInput = void 0;\nconst CurrentTimeInput = () => {\n    const currentTimeInput = document.createElement('input');\n    currentTimeInput.readOnly;\n    currentTimeInput.value = \"00:00:00\";\n    return currentTimeInput;\n};\nexports.CurrentTimeInput = CurrentTimeInput;\n\n\n//# sourceURL=webpack://videoplayer/./src/CurrentTimeInput.ts?");
-
-/***/ }),
-
-/***/ "./src/Description.ts":
-/*!****************************!*\
-  !*** ./src/Description.ts ***!
-  \****************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Description = void 0;\nconst Description = () => {\n    const description = document.createElement('input');\n    description.type = 'text';\n    description.placeholder = 'describe';\n    return description;\n};\nexports.Description = Description;\n\n\n//# sourceURL=webpack://videoplayer/./src/Description.ts?");
-
-/***/ }),
-
-/***/ "./src/Form.ts":
-/*!*********************!*\
-  !*** ./src/Form.ts ***!
-  \*********************/
-/***/ ((__unused_webpack_module, exports) => {
-
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Form = void 0;\nconst Form = () => {\n    const formElement = document.createElement('form');\n    return formElement;\n};\nexports.Form = Form;\n\n\n//# sourceURL=webpack://videoplayer/./src/Form.ts?");
-
-/***/ }),
-
 /***/ "./src/Label/Label.ts":
 /*!****************************!*\
   !*** ./src/Label/Label.ts ***!
   \****************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Label = void 0;\nconst Label = (label, element) => {\n    const labelElement = document.createElement('label');\n    labelElement.innerHTML = label;\n    labelElement.appendChild(element);\n    return labelElement;\n};\nexports.Label = Label;\n\n\n//# sourceURL=webpack://videoplayer/./src/Label/Label.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Label = void 0;\n__webpack_require__(/*! ./Label.css */ \"./src/Label/Label.css\");\nconst Label = (label, element) => {\n    const labelElement = document.createElement('label');\n    labelElement.innerHTML = label;\n    labelElement.appendChild(element);\n    labelElement.className = 'label';\n    return labelElement;\n};\nexports.Label = Label;\n\n\n//# sourceURL=webpack://videoplayer/./src/Label/Label.ts?");
 
 /***/ }),
 
@@ -356,7 +396,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
   \************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst Button_1 = __webpack_require__(/*! ./src/Button/Button */ \"./src/Button/Button.ts\");\nconst Container_1 = __webpack_require__(/*! ./src/Container/Container */ \"./src/Container/Container.ts\");\nconst ContainerVideo_1 = __webpack_require__(/*! ./src/ContainerVideo/ContainerVideo */ \"./src/ContainerVideo/ContainerVideo.ts\");\nconst CurrentTimeInput_1 = __webpack_require__(/*! ./src/CurrentTimeInput */ \"./src/CurrentTimeInput.ts\");\nconst Description_1 = __webpack_require__(/*! ./src/Description */ \"./src/Description.ts\");\nconst Form_1 = __webpack_require__(/*! ./src/Form */ \"./src/Form.ts\");\nconst Label_1 = __webpack_require__(/*! ./src/Label/Label */ \"./src/Label/Label.ts\");\nconst RecordList_1 = __webpack_require__(/*! ./src/RecordList/RecordList */ \"./src/RecordList/RecordList.ts\");\n__webpack_require__(/*! ./videoplayer.css */ \"./videoplayer.css\");\nconst recordList = (0, RecordList_1.RecordList)();\nconst formElement = (0, Form_1.Form)();\nconst description = (0, Description_1.Description)();\nconst submitButton = (0, Button_1.Button)('submit', 'submit', () => { });\nconst currentTimeInput = (0, CurrentTimeInput_1.CurrentTimeInput)();\nconst labelForTime = (0, Label_1.Label)('Current Time', currentTimeInput);\nconst labelForDesc = (0, Label_1.Label)('Description', description);\nconst formArray = [labelForTime, labelForDesc, submitButton];\nformArray.forEach((Element) => {\n    formElement.appendChild(Element);\n});\nconst ContainerLivechat = document.createElement('div');\nContainerLivechat.appendChild(formElement);\nContainerLivechat.appendChild(recordList);\n(0, Container_1.Container)({ children: [(0, ContainerVideo_1.ContainerVideo)(currentTimeInput), ContainerLivechat] });\nconst addList = (event) => {\n    event.preventDefault();\n    let record = currentTimeInput.value + \" : \" + description.value;\n    let li = document.createElement(\"li\");\n    li.innerHTML = record;\n    description.value = '';\n    recordList.children.length === 0\n        ?\n            recordList.appendChild(li)\n        :\n            recordList.insertBefore(li, recordList.children[0]);\n    console.log(description.value);\n};\nformElement.addEventListener('submit', addList);\n\n\n//# sourceURL=webpack://videoplayer/./videoplayer.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ./videoplayer.css */ \"./videoplayer.css\");\nconst Container_1 = __webpack_require__(/*! ./src/Container/Container */ \"./src/Container/Container.ts\");\nconst ContainerVideo_1 = __webpack_require__(/*! ./src/ContainerVideo/ContainerVideo */ \"./src/ContainerVideo/ContainerVideo.ts\");\nconst CurrentTimeInput_1 = __webpack_require__(/*! ./src/ContainerLivechat/CurrentTimeInput */ \"./src/ContainerLivechat/CurrentTimeInput.ts\");\nconst ContainerLivechat_1 = __webpack_require__(/*! ./src/ContainerLivechat/ContainerLivechat */ \"./src/ContainerLivechat/ContainerLivechat.ts\");\nconst currentTimeInput = (0, CurrentTimeInput_1.CurrentTimeInput)();\n(0, Container_1.Container)({ children: [(0, ContainerVideo_1.ContainerVideo)(currentTimeInput), (0, ContainerLivechat_1.ContainerLivechat)(currentTimeInput)] });\n\n\n//# sourceURL=webpack://videoplayer/./videoplayer.ts?");
 
 /***/ })
 
